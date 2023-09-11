@@ -2,6 +2,14 @@
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./Assets/style.css" />
   <title>Work Day Scheduler</title>
 </head>
@@ -18,6 +26,14 @@
 
   <div class="container-lg px-5">
     <div class="row"></div>
+    <!--id shows 8AM-->
+    <div id="09" class="row time-block">
+      <div class="col-2 col-md-1 hour text-center py-3">8:00AM</div>
+      <textarea id='text-09' class="col-8 col-md-10 description" rows="3"> </textarea>
+      <button class="btn saveBtn col-2 col-md-1" aria-label="save">
+        <i class="fas fa-save" aria-hidden="true"></i>
+      </button>
+    </div>
     <!--id shows 9AM-->
     <div id="09" class="row time-block">
       <div class="col-2 col-md-1 hour text-center py-3">9:00AM</div>
@@ -91,6 +107,8 @@
       </button>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js" integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U=" crossorigin="anonymous"></script>
     <script src="./assets/script.js"></script>
 </body>
 
