@@ -17,7 +17,7 @@ Finally your new main should be made and ready for branches to be created to edi
 ## Usage
 To use this page start by filling in each section with information of your daily work schedule to better orginize it. Then make suree to save each section to review it later to make changes.
 
-![Work Day Scheduler Screenshot]
+![image](https://github.com/CortezT/Work-Schedule/assets/126823522/3a06f838-850c-4120-8909-4e0c8fb986bd)
 
 https://cortezt.github.io/Schedule-repo/
 
