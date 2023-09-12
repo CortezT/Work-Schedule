@@ -19,7 +19,7 @@ To use this page start by filling in each section with information of your daily
 
 ![image](https://github.com/CortezT/Work-Schedule/assets/126823522/3a06f838-850c-4120-8909-4e0c8fb986bd)
 
-https://cortezt.github.io/Schedule-repo/
+https://cortezt.github.io/Work-Schedule/
 
  ## Credits
 
